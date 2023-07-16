@@ -1,6 +1,6 @@
 {% comment %} Place above of {{ content_for_layouty in the theme file}} according to the Shopify docs and Scott O'Hara code {% endcomment %}
 
-{% unless template == 'index' or template == 'cart' or template == 'list-collections' or template = '404' %}
+{% unless template == 'index' or template == 'cart' or template == 'list-collections' or template == '404' %}
 
 {% assign t = template | split: '.' | first %}
 
