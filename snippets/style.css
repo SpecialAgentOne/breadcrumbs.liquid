@@ -1,6 +1,207 @@
 .breadcrumbs {
-    font-size: .65em;
-    margin: 0 0 2em;
+    font-family: inherit;
+    font-size: 12px;
+    margin: 10px 0 0 50px;
+    display: block;
+    color: rgb(18, 18, 18);
+    text-decoration: none !important;
+    position: absolute;
+    max-width: var(--page-width);
+}
+
+@media screen and (max-width: 3840px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 1170px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 3200px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 850px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 2560px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 530px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 1920px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 210px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 1680px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 90px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 51px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 51px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 920px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 40px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 820px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 40px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 750px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 15px 0 0 210px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 810px 0 0 15px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 420px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 625px 0 0 15px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 395px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 590px 0 0 15px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 565px 0 0 15px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .breadcrumbs {
+        font-family: inherit;
+        font-size: 12px;
+        margin: 545px 0 0 15px;
+        display: block;
+        color: rgb(18, 18, 18);
+        text-decoration: none !important;
+        position: absolute;
+        max-width: var(--page-width);
+    }
 }
 
 .breadcrumbs ol {
@@ -14,7 +215,8 @@
 }
 
 .breadcrumbs a {
-    text-decoration: none;
+    text-decoration: underline;
+    color: rgb(18, 18, 18);
 }
 
 .breadcrumbs li:not(:last-child)::after {
