@@ -20,7 +20,7 @@
 
         {% comment %} Breadcrumbs for product page {% endcomment %}
         {% when 'product' %}
-            {% if.collection.url %}
+            {% if collection.url %}
                 <li>
                     {{ collection.title | link_to: collection.url }}
                 </li>
